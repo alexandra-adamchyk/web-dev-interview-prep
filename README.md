@@ -12,6 +12,6 @@ This repository contains my preparation materials for web development interviews
 - `mini-projects/` – small practical projects
 
 ## Author
-Oleksandra Adamchyk – Web Developer  
+Alexandra Adamchyk – Web Developer  
 Preparing for interviews in Germany 🇩🇪
 
