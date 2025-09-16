@@ -1,0 +1,76 @@
+/* Simple styling for todo app */
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input field */
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Add button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Task list */
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Individual task */
+li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f8f9fa;
+}
+
+/* Completed task */
+.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Empty message */
+.empty {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+}
