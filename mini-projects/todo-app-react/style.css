@@ -1,76 +1,33 @@
-/* Simple styling for todo app */
-
+/* Page style */
 body {
-    font-family: Arial, sans-serif;
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f0f0f0;
+    font-family: Arial;
+    margin: 50px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-/* Input field */
+/* Input style */
 input {
-    width: 300px;
     padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-    margin-right: 10px;
+    width: 200px;
 }
 
-/* Add button */
+/* Button style */
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
+    padding: 10px;
+    background: blue;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Task list */
-ul {
-    padding: 0;
-    margin-top: 20px;
-}
-
-/* Individual task */
+/* Task style */
 li {
-    padding: 15px;
-    margin: 10px 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    background: lightblue;
     list-style: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-li:hover {
-    background-color: #f8f9fa;
-}
-
-/* Completed task */
-.completed {
+/* Done style */
+.done {
+    background: lightgreen;
     text-decoration: line-through;
-    background-color: #d4edda;
-    color: #155724;
-}
-
-/* Empty message */
-.empty {
-    text-align: center;
-    color: #666;
-    font-style: italic;
-    padding: 20px;
 }
